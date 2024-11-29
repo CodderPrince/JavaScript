@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/CodderPrince">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=35&pause=2000&color=FFD700&center=true&vCenter=true&width=1000&lines=Ghost+Cursor+by+using+JavaScript" alt="Ghost Cursor Project">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=45&pause=2000&color=FFD700&center=true&vCenter=true&width=1000&lines=Ghost+Cursor+by+using+JavaScript" alt="Ghost Cursor Project">
   </a>
 </p>
 
