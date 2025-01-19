@@ -1,0 +1,34 @@
+/* Full screen background with a gradient animation */
+body {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(45deg, #ff0099, #00ccff, #ffcc00, #ff6600);
+    background-size: 400% 400%;
+    animation: gradientBackground 5s ease infinite;
+    position: relative;
+}
+
+/* Animation for the background to cycle through colors */
+@keyframes gradientBackground {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Hide the default cursor */
+* {
+    cursor: none;
+}
+
+/* Style for each ghost cursor element */
+.ghost-cursor {
+    position: absolute;
+    pointer-events: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);  /* Semi-transparent */
+    transition: transform 0.1s ease, opacity 0.5s ease-out; /* Smooth motion and fade */
+    transform: translate(-50%, -50%);
+}
